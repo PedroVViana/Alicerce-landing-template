@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { useToast } from "@/components/ui/use-toast";
 import Logo from '@/components/Logo';
@@ -236,26 +235,26 @@ const Index = () => {
         </div>
       </section>
 
-              {/* CTA Section */}
-          <section id="contato" className="py-20 cta-section text-white bg-gradient-to-r from-blue-500 to-green-500 animate-gradient-x">
-            <div className="container-section">
-              <div className="animate-on-scroll text-center">
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">Vamos iniciar seu projeto?</h2>
-                <p className="text-xl text-white/80 mb-10 max-w-3xl mx-auto">
-                  Entre em contato conosco para discutir suas necessidades e como podemos ajudar a concretizar seus projetos.
-                </p>
-                <a 
-                  href="https://wa.me/5511999999999" 
-                  className="px-8 py-4 bg-white text-alicerce-dark rounded-md font-medium hover:bg-gray-100 transition-colors duration-300 inline-flex items-center animate-bounce"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  Fale Conosco no WhatsApp
-                </a>
-              </div>
-            </div>
-          </section>
+      {/* CTA Section */}
+      <section id="contato" className="py-20 cta-section text-white bg-gradient-to-r from-blue-500 to-green-500 animate-gradient-x">
+        <div className="container-section">
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 cta-title">Vamos iniciar seu projeto?</h2>
+            <p className="text-xl text-white/80 mb-10 max-w-3xl mx-auto cta-text">
+              Entre em contato conosco para discutir suas necessidades e como podemos ajudar a concretizar seus projetos.
+            </p>
+            <a 
+              href="https://wa.me/5511999999999" 
+              className="px-8 py-4 bg-white text-alicerce-dark rounded-md font-medium hover:bg-gray-100 transition-colors duration-300 inline-flex items-center animate-bounce"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Fale Conosco no WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="py-12 bg-alicerce-deep text-white">
